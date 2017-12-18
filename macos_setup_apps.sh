@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Install essential packages; first homebrew
-ruby -e "$(curl -fsSL "https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Setup homebrew/cask
 brew tap caskroom/cask
