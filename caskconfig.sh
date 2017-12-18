@@ -8,12 +8,15 @@ brew install wget
 brew cask install evernote
 brew cask install libreoffice
 brew cask install macpass
+brew cask install nextcloud
 
 # illustration / design apps
 brew cask install librecad
 brew cask install inkscape
 brew cask install scribus
 brew cask install gimp
+brew cask install darktable
+brew cask install xnviewmp
 
 # development
 brew cask install lighttable
