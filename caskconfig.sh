@@ -2,11 +2,12 @@
 
 # further essentials
 brew cask install xquartz
+brew install wget
 
 # productivity apps
 brew cask install evernote
 brew cask install libreoffice
-brew cask install mackeep
+brew cask install macpass
 
 # illustration / design apps
 brew cask install librecad
@@ -17,5 +18,6 @@ brew cask install gimp
 # development
 brew cask install lighttable
 brew cask install atom
-brew cask install pyenv
+brew install git
+brew install pyenv
 # brew cask install python3
