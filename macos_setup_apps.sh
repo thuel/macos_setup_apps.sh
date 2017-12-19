@@ -9,3 +9,6 @@ brew install caskroom/cask/brew-cask
 
 # Install the useful software; to this end the file caskconfig.sh is sourced here
 . caskconfig.sh
+
+# Configure the dock with preffered apps
+. dockconfig.sh
