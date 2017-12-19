@@ -29,3 +29,14 @@ brew install pyenv # python is managed with pyenv
 pyenv install python3
 
 # install mac appstore apps
+# ...
+
+# add clean dock.plist
+# ...
+
+# add apps to dock
+defaults write com.apple.dock persistent-apps -array-add ‘<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/MacPass</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>’
+defaults write com.apple.dock persistent-apps -array-add ‘<dict><key>tile-data</key><dict><key>file-data</key><dict><key>_CFURLString</key><string>/Applications/APPLICATION_NAME_HERE</string><key>_CFURLStringType</key><integer>0</integer></dict></dict></dict>’
+
+# reload dock
+killall Dock
