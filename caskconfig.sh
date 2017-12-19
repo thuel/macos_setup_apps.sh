@@ -1,14 +1,17 @@
 #!/bin/bash
 
 # further essentials
-brew cask install xquartz
+brew install mas
 brew install wget
+brew cask install xquartz
+brew cask install teamviewer
 
 # productivity apps
 brew cask install evernote
 brew cask install libreoffice
 brew cask install macpass
 brew cask install nextcloud
+brew cask install nylas-mail-lives
 
 # illustration / design apps
 brew cask install librecad
@@ -22,5 +25,7 @@ brew cask install xnviewmp
 brew cask install lighttable
 brew cask install atom
 brew install git
-brew install pyenv
-# brew cask install python3
+brew install pyenv # python is managed with pyenv
+pyenv install python3
+
+# install mac appstore apps
