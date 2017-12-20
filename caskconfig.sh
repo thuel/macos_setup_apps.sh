@@ -29,4 +29,6 @@ brew install pyenv # python is managed with pyenv
 pyenv install python3
 
 # install mac appstore apps
-# ...
+mas install 409201541 # Pages
+mas install 409203825 # Numbers
+mas install 952380304 # RailModeller Pro
