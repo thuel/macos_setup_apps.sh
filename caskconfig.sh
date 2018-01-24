@@ -28,7 +28,11 @@ brew install git
 brew install pyenv # python is managed with pyenv
 pyenv install python3
 
+# python modules
+pip install appnope decorator future jedi parso pexpect pickleshare prompt-toolkit ptyprocess Pygments setuptools simplegeneric six traitlets wcwidth
+
 # install mac appstore apps
 mas install 409201541 # Pages
 mas install 409203825 # Numbers
 mas install 952380304 # RailModeller Pro
+# ev. 1Password
